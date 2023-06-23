@@ -1,0 +1,29 @@
+  /* personalizando o titulo h3 */
+  h3
+  {
+    /* colocando a fonte em 25 px */
+    /* important=importante */
+    font-size: 25px !important;
+  }
+.btn-success:hover
+{
+  /* quando o mouse psssar */
+	background-color: blueviolet;
+}
+  canvas {
+    /* especifica o nome da animação */
+	  animation-name: example;
+/* faz com que a duraçao da animaçao seja 4s */
+	  animation-duration: 4s;
+    /* faz a animação nunca parar pois infinite é ∾ */
+	  animation-iteration-count: infinite;
+  }
+
+
+@keyframes example {
+/* inicio e fim */
+/* cor do fundo da img */
+  from {box-shadow: 10px 10px 1000px red;}
+  to {box-shadow: 10px 10px 1000px yellow;}
+
+}
